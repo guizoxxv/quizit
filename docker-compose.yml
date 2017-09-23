@@ -1,0 +1,22 @@
+version: "3"
+services:
+  quizit-app:
+    container_name: quizit-app
+    image: php:7.1.9-apache
+    ports:
+      - 8084:80
+    volumes:
+      - ./app:/var/www/html
+    environment:
+      - TZ=America/Sao_Paulo
+  quizit-db:
+    container_name: quizit-db
+    image: mysql:5.7.18
+    ports:
+      - "33064:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      - TZ=America/Sao_Paulo
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=quizit-db
