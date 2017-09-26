@@ -3,10 +3,10 @@
 
   <head>
     <title>Quizit</title>
+    <meta charset='utf-8'>
     <meta name="author" content="guizo">
     <meta name="description" content="QuizIt. A site to build, play and share quizzes.">
     <meta name="keywords" content="guizo, guizoxxv, quiz, quizit">
-    <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel="icon" href="img/guizo-favicon.png">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
